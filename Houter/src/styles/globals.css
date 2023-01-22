@@ -1,0 +1,71 @@
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../../public/fonts/Lexend-Regular.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 500;
+  src: url('../../public/fonts/Lexend-Medium.woff2') format('woff2');
+  font-display: swap;
+}
+
+@font-face {
+  font-family: 'Lexend';
+  font-style: normal;
+  font-weight: 600;
+  src: url('../../public/fonts/Lexend-SemiBold.woff2') format('woff2');
+  font-display: swap;
+}
+
+
+:root {
+  --max-width: 1440px;
+  --color-blue: #1B1C57;
+  --color-orange: #F59E0B;
+  --color-light-lilac: #626687;
+  --color-border: #E0E3EB;
+  --color-light: #F0F3FD;
+  --color-lilac: #68799F;
+  --color-green: #10B981;
+  --color-light-green: #D1FAE5;
+  --color-button-grey: #E5E5E5;
+  --color-dark-blue:#0E1735;
+  --color-dark-lilac: #3C4563;
+  --color-gray: #888B97;
+  --color-white: #FFFFFF;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html,
+body {
+ padding: 0;
+ margin: 0;
+ font-family: 'Lexend', -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+ Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+-webkit-font-smoothing: antialiased;
+background-color: var(--color-white);
+scroll-behavior: smooth;
+}
+
+[type='button'] {
+  appearance: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
