@@ -1,4 +1,5 @@
 .root {
+  font-family: "Lexend";
   font-size: 16px;
   line-height: 28px;
   font-weight: 400;
@@ -11,7 +12,6 @@
   line-height: 50px;
   text-transform: capitalize;
   color: var(--color-blue);
-  border: 1px solid var(--color-blue);
 }
 
 .h1 span {
@@ -84,4 +84,9 @@
 
 .weight700 {
   font-weight: 700;
+}
+
+.sizeXs {
+  font-size: 14px;
+  line-height: 17.5px;
 }

@@ -1,6 +1,6 @@
 import cn from "@/utils/cn";
 import React, { memo } from "react";
-import s from "./Text.module.css";
+import s from "./Text.module.scss";
 
 export interface iTextProps {
   children: React.ReactNode;

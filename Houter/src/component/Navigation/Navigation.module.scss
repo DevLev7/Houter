@@ -1,0 +1,26 @@
+.navigation {
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+  min-height: 8rem;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  transition: 0.1s ease-in-out;
+  overflow: hidden;
+  max-height: 100%;
+}
+
+.container {
+  max-width: 75rem;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 1rem;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 8rem;
+}
