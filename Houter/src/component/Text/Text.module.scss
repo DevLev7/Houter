@@ -8,7 +8,7 @@
 
 .h1 {
   font-size: 50px;
-  font-weight: 600;
+  font-weight: 700;
   line-height: 50px;
   text-transform: capitalize;
   color: var(--color-blue);
@@ -89,4 +89,9 @@
 .sizeXs {
   font-size: 14px;
   line-height: 17.5px;
+}
+
+.sizeXsMini {
+  font-size: 12px;
+  line-height: 20px;
 }

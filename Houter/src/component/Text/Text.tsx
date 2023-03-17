@@ -12,7 +12,8 @@ export interface iTextProps {
     | "gray"
     | "light"
     | "text-grey"
-    | "lilac";
+    | "lilac"
+    | "light-lilac";
   weight?: "400" | "500" | "600" | "700";
   style?: "h1" | "h2" | "h3" | "p";
   size?: keyof typeof TEXT_SIZE_TO_CLASSNAME;
@@ -28,6 +29,7 @@ const TEXT_STYLE_TO_CLASSNAME = {
 
 const TEXT_SIZE_TO_CLASSNAME = {
   xs: s.sizeXs,
+  xs_mini: s.sizeXsMini,
   sm: s.sizeSm,
   md: s.sizeMd,
   lg: s.sizeLg,
